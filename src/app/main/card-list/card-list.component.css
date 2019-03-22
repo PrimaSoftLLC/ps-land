@@ -1,0 +1,23 @@
+.colorField {
+  width: 100%;
+  height: 450px;
+  background: linear-gradient(to top right, #180e40, #47319c);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+app-card {
+  width: 230px;
+  height: 360px;
+  border: 1px solid #b8bcd3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: #FFF;
+  border-radius: 12px;
+  margin: 0 20px 0 20px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}

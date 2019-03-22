@@ -1,0 +1,29 @@
+h3 {
+  font: 32px HelveticaNeueLTComBdCn, HelveticaNeue, Arial, sans-serif;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+p.description {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 50%;
+  font: 21px HelveticaNeueLTCom45Light, Arial, non-serif;
+  padding: 0 6px;
+  color: #444;
+  text-align: center;
+}
+.line {
+ height: 2px;
+  width: 300px;
+  background-color: #e4e6f3;
+}
+
+.headline {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
