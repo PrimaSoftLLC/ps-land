@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {Card} from '../../../../shared/card';
 
 @Component({
   selector: 'app-card',
@@ -8,20 +9,14 @@ import {Component, Input, OnInit} from '@angular/core';
 export class CardComponent implements OnInit {
 
   @Input()
-  title: string;
-  @Input()
-  icon: string;
-  @Input()
-  description: string;
-  @Input()
-  fon: string;
-  @Input()
-  link: number;
-
+  card: Card;
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  onCardClick() {
+    window.open(this.card.url, '_blank');
+  }
 }

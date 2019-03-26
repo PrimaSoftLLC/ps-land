@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {Card} from '../../../shared/card';
 
 @Component({
   selector: 'app-card-list',
@@ -7,28 +8,34 @@ import {Component, OnInit} from '@angular/core';
 })
 export class CardListComponent implements OnInit {
 
-  title1 = 'Умный Улей';
-  icon1 = '/assets/images/ul_B1.png';
-  description1 = 'ваша пасека в вашем смартфоне';
-  fon1 = '/assets/images/fonU.png';
-  link1 = 'https://www.onliner.by/';
-
-  title2 = 'signum';
-  icon2 = '/assets/images/logo_signum_q-23.png';
-  description2 = 'aвтомобильная сигнализация нового поколения';
-  fon2 = '/assets/images/fonS.png';
-
-  title3 = 'aurora';
-  icon3 = '/assets/images/Aurora120.png';
-  description3 = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ';
-  fon3 = '/assets/images/fonA.png';
-
-
+  cards: Card[] = [];
 
   constructor() {
   }
 
   ngOnInit() {
+    this.cards.push(
+      new Card(
+        'Умный Улей',
+        'ваша пасека в вашем смартфоне',
+        '/assets/images/ul_B1.png',
+        '/assets/images/fonU.png',
+        'https://yylei.by/'
+      ),
+      new Card(
+        'signum',
+        'aвтомобильная сигнализация нового поколения',
+        '/assets/images/logo_signum_q-23.png',
+        '/assets/images/fonS.png',
+        'https://sgnm.by/'
+      ),
+      new Card(
+        'aurora',
+        'Система мониторинга автотранспорта',
+        '/assets/images/Aurora120.png',
+        '/assets/images/fonA.png',
+        'http://aurora-soft.by'
+      )
+    );
   }
-
 }

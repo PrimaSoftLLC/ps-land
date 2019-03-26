@@ -1,7 +1,7 @@
 .colorField {
   width: 100%;
   height: 450px;
-  background: linear-gradient(to top right, #180e40, #47319c);
+  background: linear-gradient(to top right, rgba(228, 19, 45, 0.3),  rgba(155, 161, 228, 0.6));
   position: relative;
   display: flex;
   flex-direction: row;
@@ -16,8 +16,25 @@ app-card {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   background: #FFF;
   border-radius: 12px;
-  margin: 0 20px 0 20px;
+  margin: 20px 20px 10px 20px;
   position: relative;
   z-index: 2;
   overflow: hidden;
+}
+.hovered {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+  transition: .5s all;
+  z-index: 10;
+}
+
+@media screen and (max-width: 849px) {
+  .colorField {
+    height: 800px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .colorField {
+    height: 1200px;
+  }
 }

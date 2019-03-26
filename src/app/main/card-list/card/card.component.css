@@ -14,7 +14,7 @@ img {
 
 }
 h2 {
-  font: 30px "HelveticaNeue-CondensedBold", HelveticaNeueLTComBdCn, HelveticaNeue, Arial, sans-serif;
+  font: 30px Lato, Helvetica Neue Condensed Bold, Arial, sans-serif;
   line-height: 34px;
   font-weight: normal;
   text-transform: uppercase;
@@ -30,7 +30,7 @@ h2 {
 
 }
 p {
-  font: 16px HelveticaNeueLTCom45Light, HelveticaNeue, Arial, non-serif;
+  font: 16px sm SFNSText-Medium, Helvetica-Neue-LT-Com-45-light, HelveticaNeue, Arial, non-serif;
   line-height: 22px;
   height: 83px;
   z-index: 2;

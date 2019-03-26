@@ -7,6 +7,7 @@ import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardListComponent } from './main/card-list/card-list.component';
 import { CardComponent } from './main/card-list/card/card.component';
+import {HoverDirective} from './hover.directive';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CardComponent } from './main/card-list/card/card.component';
     MainComponent,
     FooterComponent,
     CardListComponent,
-    CardComponent
+    CardComponent,
+    HoverDirective
   ],
   imports: [
     BrowserModule

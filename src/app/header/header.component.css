@@ -1,8 +1,10 @@
 .top{
- color: #591319;
+ color: #53216e;
+  font-weight: bold;
+  text-transform: uppercase;
   margin: 10px;
   text-align: center;
-  font: 36px HelveticaNeueLTCom45Light, Arial, non-serif;
+  font: 36px Lato, Arial, non-serif;
    }
 
 
