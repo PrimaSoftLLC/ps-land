@@ -20,6 +20,7 @@ app-card {
   position: relative;
   z-index: 2;
   overflow: hidden;
+  cursor: pointer;
 }
 .hovered {
   transform: scale(1.1);

@@ -1,5 +1,5 @@
 <div class="colorField" >
-  <app-card  *ngFor="let card of cards" [card]="card"  appHover></app-card>
+  <app-card  *ngFor="let card of cards" [card]="card"  appHover (click)="onCardClick(card)"></app-card>
 </div>
 
 

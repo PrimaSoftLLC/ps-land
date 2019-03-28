@@ -15,8 +15,4 @@ export class CardComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  onCardClick() {
-    window.open(this.card.url, '_blank');
-  }
 }

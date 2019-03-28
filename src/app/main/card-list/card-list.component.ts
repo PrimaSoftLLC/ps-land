@@ -38,4 +38,8 @@ export class CardListComponent implements OnInit {
       )
     );
   }
+
+  onCardClick(card: Card) {
+    window.open(card.url, '_blank');
+  }
 }
