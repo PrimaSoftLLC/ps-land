@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: Helvetica-Neue-LT-Com-45-light;
+  src: url("/src/assets/fonts/Helvetica-Neue-LT-Com-45-light.ttf") format("truetype");
+}
+@font-face {
+  font-family: Helvetica Neue Condensed Bold;
+  src: url("/src/assets/fonts/Helvetica Neue Condensed Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: sm SFNSDisplay-Ultralight;
+  src: url("/src/assets/fonts/sm SFNSDisplay-Ultralight.ttf") format("truetype");
+}
+@font-face {
+  font-family: sm SFNSText-Medium;
+  src: url("/src/assets/fonts/sm SFNSText-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: sm SFNDisplay-Bold;
+  src: url("/src/assets/fonts/sm SFNDisplay-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Lato;
+  src: url("/src/assets/fonts/Lato.ttf") format("truetype");
+}
