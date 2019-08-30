@@ -32,8 +32,8 @@ export class CardListComponent implements OnInit {
       new Card(
         'aurora',
         'Система мониторинга автотранспорта',
-        '/assets/images/Aurora120.png',
-        '/assets/images/fonA.png',
+        '/assets/images/AuroraLogo.png',
+        '/assets/images/fonAu.png',
         'http://aurora-soft.by'
       )
     );
