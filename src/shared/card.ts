@@ -15,7 +15,6 @@ export class Card {
     this._url = url;
   }
 
-
   get title(): string {
     return this._title;
   }
